@@ -1,0 +1,54 @@
+# -------------------------
+# PYTHON BACKEND
+# -------------------------
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment files
+.env
+*.env
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Data Outputs
+data/extracted_text/
+data/images/
+data/comics/
+data/videos/
+data/outputs/
+
+# -------------------------
+# NODE / REACT FRONTEND
+# -------------------------
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Cache
+*.cache
+npm-debug.log
+
+# -------------------------
+# ML MODELS (VERY IMPORTANT)
+# -------------------------
+ml_models/stable_diffusion/
+ml_models/controlnet/
+ml_models/loras/
+ml_models/animate_diff/
+
+# Large model checkpoints
+*.ckpt
+*.safetensors
+
+# HuggingFace models cache
+huggingface/
+hf_cache/
+cache/
