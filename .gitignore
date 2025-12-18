@@ -1,0 +1,56 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.local
+
+# =========================
+# Node
+# =========================
+node_modules/
+
+# =========================
+# ML / Models
+# =========================
+backend/Wav2Lip/checkpoints/
+*.pth
+*.pt
+*.ckpt
+.cache/
+huggingface/
+torch_cache/
+
+# =========================
+# GENERATED DATA (VERY IMPORTANT)
+# =========================
+backend/data/audio/*
+backend/data/frames/*
+backend/data/video/*
+backend/data/pdfs/*
+backend/data/extracted_text/*
+
+# keep folders but ignore files
+!backend/data/**/.gitkeep
+
+# =========================
+# Logs / OS / IDE
+# =========================
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.ipynb_checkpoints/
+
